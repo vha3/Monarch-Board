@@ -2756,6 +2756,114 @@ Source: &lt;a href="http://www.molex.com/pdm_docs/sd/734120110_sd.pdf"&gt; Data 
 </deviceset>
 </devicesets>
 </library>
+<library name="HDMID">
+<packages>
+<package name="HDMID">
+<smd name="19" x="-1.8" y="6.475" dx="0.23" dy="0.85" layer="1"/>
+<smd name="17" x="-1.4" y="6.475" dx="0.23" dy="0.85" layer="1"/>
+<smd name="15" x="-1" y="6.475" dx="0.23" dy="0.85" layer="1"/>
+<smd name="13" x="-0.6" y="6.475" dx="0.23" dy="0.85" layer="1"/>
+<smd name="11" x="-0.2" y="6.475" dx="0.23" dy="0.85" layer="1"/>
+<smd name="9" x="0.2" y="6.475" dx="0.23" dy="0.85" layer="1"/>
+<smd name="7" x="0.6" y="6.475" dx="0.23" dy="0.85" layer="1"/>
+<smd name="5" x="1" y="6.475" dx="0.23" dy="0.85" layer="1"/>
+<smd name="3" x="1.4" y="6.475" dx="0.23" dy="0.85" layer="1"/>
+<smd name="1" x="1.8" y="6.475" dx="0.23" dy="0.85" layer="1"/>
+<smd name="18" x="-1.6" y="5.25" dx="0.23" dy="1" layer="1"/>
+<smd name="16" x="-1.2" y="5.25" dx="0.23" dy="1" layer="1"/>
+<smd name="14" x="-0.8" y="5.25" dx="0.23" dy="1" layer="1"/>
+<smd name="12" x="-0.4" y="5.25" dx="0.23" dy="1" layer="1"/>
+<smd name="10" x="0" y="5.25" dx="0.23" dy="1" layer="1"/>
+<smd name="8" x="0.4" y="5.25" dx="0.23" dy="1" layer="1"/>
+<smd name="6" x="0.8" y="5.25" dx="0.23" dy="1" layer="1"/>
+<smd name="4" x="1.2" y="5.25" dx="0.23" dy="1" layer="1"/>
+<smd name="2" x="1.6" y="5.25" dx="0.23" dy="1" layer="1"/>
+<smd name="FOOT2" x="2.85" y="5.06" dx="1.8" dy="1.38" layer="1"/>
+<smd name="FOOT1" x="-2.85" y="5.06" dx="1.8" dy="1.38" layer="1"/>
+<smd name="FOOT3" x="-2.85" y="1.7" dx="1.7" dy="2" layer="1"/>
+<smd name="FOOT4" x="2.85" y="1.7" dx="1.7" dy="2" layer="1"/>
+<wire x1="-3.3" y1="0" x2="3.4" y2="0" width="0.127" layer="21"/>
+<wire x1="-3.3" y1="0" x2="-3.3" y2="0.6" width="0.127" layer="21"/>
+<wire x1="-3.3" y1="2.8" x2="-3.3" y2="4.2" width="0.127" layer="21"/>
+<wire x1="-3.3" y1="5.9" x2="-3.3" y2="7" width="0.127" layer="21"/>
+<wire x1="-3.3" y1="7" x2="3.2" y2="7" width="0.127" layer="21"/>
+<wire x1="3.2" y1="7" x2="3.2" y2="5.9" width="0.127" layer="21"/>
+<wire x1="3.3" y1="4.3" x2="3.3" y2="2.8" width="0.127" layer="21"/>
+<wire x1="3.4" y1="0" x2="3.4" y2="0.6" width="0.127" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="HDMID">
+<pin name="10" x="0" y="-5.08" length="middle" rot="R90"/>
+<pin name="11" x="-2.54" y="-5.08" length="middle" rot="R90"/>
+<pin name="12" x="-5.08" y="-5.08" length="middle" rot="R90"/>
+<pin name="13" x="-7.62" y="-5.08" length="middle" rot="R90"/>
+<pin name="14" x="-10.16" y="-5.08" length="middle" rot="R90"/>
+<pin name="15" x="-12.7" y="-5.08" length="middle" rot="R90"/>
+<pin name="16" x="-15.24" y="-5.08" length="middle" rot="R90"/>
+<pin name="17" x="-17.78" y="-5.08" length="middle" rot="R90"/>
+<pin name="18" x="-20.32" y="-5.08" length="middle" rot="R90"/>
+<pin name="9" x="2.54" y="-5.08" length="middle" rot="R90"/>
+<pin name="8" x="5.08" y="-5.08" length="middle" rot="R90"/>
+<pin name="7" x="7.62" y="-5.08" length="middle" rot="R90"/>
+<pin name="6" x="10.16" y="-5.08" length="middle" rot="R90"/>
+<pin name="5" x="12.7" y="-5.08" length="middle" rot="R90"/>
+<pin name="4" x="15.24" y="-5.08" length="middle" rot="R90"/>
+<pin name="3" x="17.78" y="-5.08" length="middle" rot="R90"/>
+<pin name="2" x="20.32" y="-5.08" length="middle" rot="R90"/>
+<pin name="1" x="22.86" y="-5.08" length="middle" rot="R90"/>
+<pin name="19" x="-22.86" y="-5.08" length="middle" rot="R90"/>
+<wire x1="-27.94" y1="0" x2="27.94" y2="0" width="0.254" layer="94"/>
+<wire x1="27.94" y1="0" x2="27.94" y2="17.78" width="0.254" layer="94"/>
+<wire x1="27.94" y1="17.78" x2="-27.94" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-27.94" y1="17.78" x2="-27.94" y2="0" width="0.254" layer="94"/>
+<text x="-2.54" y="5.08" size="1.778" layer="97">HDMI D</text>
+<pin name="FOOT1" x="-10.16" y="22.86" length="middle" rot="R270"/>
+<pin name="FOOT2" x="-2.54" y="22.86" length="middle" rot="R270"/>
+<pin name="FOOT3" x="5.08" y="22.86" length="middle" rot="R270"/>
+<pin name="FOOT4" x="12.7" y="22.86" length="middle" rot="R270"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="HDMID">
+<gates>
+<gate name="G$1" symbol="HDMID" x="0" y="-7.62"/>
+</gates>
+<devices>
+<device name="" package="HDMID">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="17" pad="17"/>
+<connect gate="G$1" pin="18" pad="18"/>
+<connect gate="G$1" pin="19" pad="19"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+<connect gate="G$1" pin="FOOT1" pad="FOOT1"/>
+<connect gate="G$1" pin="FOOT2" pad="FOOT2"/>
+<connect gate="G$1" pin="FOOT3" pad="FOOT3"/>
+<connect gate="G$1" pin="FOOT4" pad="FOOT4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2876,6 +2984,9 @@ Source: &lt;a href="http://www.molex.com/pdm_docs/sd/734120110_sd.pdf"&gt; Data 
 <part name="GND33" library="SparkFun" deviceset="GND" device=""/>
 <part name="C20" library="SparkFun" deviceset="CAP" device="0805" value="100 uF"/>
 <part name="GND34" library="SparkFun" deviceset="GND" device=""/>
+<part name="U$1" library="HDMID" deviceset="HDMID" device=""/>
+<part name="GND35" library="SparkFun" deviceset="GND" device=""/>
+<part name="GND36" library="SparkFun" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3142,6 +3253,9 @@ Driver</text>
 <instance part="GND33" gate="1" x="203.2" y="48.26" rot="R180"/>
 <instance part="C20" gate="G$1" x="180.34" y="15.24"/>
 <instance part="GND34" gate="1" x="180.34" y="10.16"/>
+<instance part="U$1" gate="G$1" x="195.58" y="149.86"/>
+<instance part="GND35" gate="1" x="175.26" y="175.26" rot="R180"/>
+<instance part="GND36" gate="1" x="167.64" y="137.16" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -3429,6 +3543,26 @@ Driver</text>
 <segment>
 <pinref part="C20" gate="G$1" pin="2"/>
 <pinref part="GND34" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="FOOT4"/>
+<pinref part="U$1" gate="G$1" pin="FOOT3"/>
+<wire x1="208.28" y1="172.72" x2="200.66" y2="172.72" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="FOOT2"/>
+<wire x1="193.04" y1="172.72" x2="200.66" y2="172.72" width="0.1524" layer="91"/>
+<junction x="200.66" y="172.72"/>
+<pinref part="U$1" gate="G$1" pin="FOOT1"/>
+<wire x1="193.04" y1="172.72" x2="185.42" y2="172.72" width="0.1524" layer="91"/>
+<junction x="193.04" y="172.72"/>
+<pinref part="GND35" gate="1" pin="GND"/>
+<wire x1="175.26" y1="172.72" x2="185.42" y2="172.72" width="0.1524" layer="91"/>
+<junction x="185.42" y="172.72"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="19"/>
+<pinref part="GND36" gate="1" pin="GND"/>
+<wire x1="172.72" y1="144.78" x2="172.72" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="137.16" x2="170.18" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RESET" class="0">
