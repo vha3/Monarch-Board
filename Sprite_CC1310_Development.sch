@@ -200,7 +200,6 @@
 <smd name="47" x="-2.25" y="3.35" dx="0.3" dy="0.7" layer="1" roundness="100"/>
 <smd name="48" x="-2.75" y="3.35" dx="0.3" dy="0.7" layer="1" roundness="100"/>
 <text x="-2.5" y="4.14" size="1.016" layer="25">&gt;NAME</text>
-<text x="-3.11" y="-4.61" size="0.6096" layer="27">CC1310 RGZ48</text>
 </package>
 </packages>
 <symbols>
@@ -2335,8 +2334,8 @@ Simple light detection sensor. Output varies with light intensity input. Spark F
 <library name="ALTA_CELL">
 <packages>
 <package name="ALTA_CELL">
-<smd name="+" x="0" y="10.9" dx="50" dy="2.2" layer="1"/>
-<smd name="-" x="0" y="-10.2" dx="50" dy="2.2" layer="1"/>
+<smd name="+" x="0" y="10.9" dx="47" dy="2.2" layer="1"/>
+<smd name="-" x="0" y="-9.65" dx="47" dy="1.1" layer="1"/>
 <wire x1="-25" y1="9.8" x2="-25" y2="-9.8" width="0.127" layer="21"/>
 <wire x1="25" y1="9.8" x2="25" y2="-9.8" width="0.127" layer="21"/>
 <wire x1="-25" y1="9.8" x2="25" y2="9.8" width="0.127" layer="21"/>
