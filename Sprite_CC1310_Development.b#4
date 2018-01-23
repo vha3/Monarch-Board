@@ -16,12 +16,12 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -146,6 +146,12 @@
 <wire x1="50" y1="0" x2="50" y2="50" width="0" layer="20"/>
 <wire x1="50" y1="50" x2="0" y2="50" width="0" layer="20"/>
 <wire x1="0" y1="50" x2="0" y2="0" width="0" layer="20"/>
+<text x="40.306990625" y="0.929359375" size="0.8128" layer="25">Cornell University
+
+Space Systems
+Design Studio</text>
+<text x="23.082896875" y="0.597884375" size="0.8128" layer="26" rot="MR0">V. Hunter Adams
+VHA3@CORNELL.EDU</text>
 </plain>
 <libraries>
 <library name="FC-135">
@@ -2447,10 +2453,83 @@ design rules under a new name.</description>
 <wire x1="15.4703125" y1="20.505434375" x2="14.10998125" y2="20.505434375" width="1.016" layer="1"/>
 <wire x1="14.10998125" y1="20.505434375" x2="14.101209375" y2="20.4966625" width="1.016" layer="1"/>
 </signal>
+<signal name="N$10">
+<via x="48.548415625" y="6.95264375" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$17">
+<via x="46.172140625" y="6.964634375" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$18">
+<via x="43.546359375" y="6.95264375" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$28">
+<via x="41.04065625" y="6.90700625" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$29">
+<via x="38.126296875" y="4.00510625" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$30">
+<via x="38.191653125" y="0.877940625" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$31">
+<via x="35.5994" y="0.863775" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$32">
+<via x="33.61301875" y="2.33219375" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$33">
+<via x="13.138215625" y="19.10779375" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$34">
+<via x="13.187978125" y="16.818840625" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$35">
+<via x="13.18798125" y="14.206446875" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$36">
+<via x="13.19449375" y="11.69759375" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$37">
+<via x="13.267915625" y="8.839896875" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$39">
+<via x="13.079246875" y="22.721528125" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$40">
+<via x="10.427565625" y="22.793203125" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$41">
+<via x="8.24171875" y="24.549284375" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$42">
+<via x="13.288715625" y="5.941878125" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$43">
+<via x="13.342446875" y="2.76498125" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$38">
+<via x="48.5314625" y="9.5846375" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$44">
+<via x="48.501615625" y="12.361496875" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$45">
+<via x="48.669415625" y="25.31051875" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$46">
+<via x="48.7600875" y="22.42099375" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$47">
+<via x="32.46819375" y="0.90676875" extent="1-16" drill="0.35"/>
+</signal>
 </signals>
 </board>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)

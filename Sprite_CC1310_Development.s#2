@@ -2335,8 +2335,8 @@ Simple light detection sensor. Output varies with light intensity input. Spark F
 <library name="ALTA_CELL">
 <packages>
 <package name="ALTA_CELL">
-<smd name="+" x="0" y="10.9" dx="50" dy="2.2" layer="1"/>
-<smd name="-" x="0" y="-10.2" dx="50" dy="2.2" layer="1"/>
+<smd name="+" x="0" y="10.9" dx="47" dy="2.2" layer="1"/>
+<smd name="-" x="0" y="-9.65" dx="47" dy="1.1" layer="1"/>
 <wire x1="-25" y1="9.8" x2="-25" y2="-9.8" width="0.127" layer="21"/>
 <wire x1="25" y1="9.8" x2="25" y2="-9.8" width="0.127" layer="21"/>
 <wire x1="-25" y1="9.8" x2="25" y2="9.8" width="0.127" layer="21"/>

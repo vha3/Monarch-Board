@@ -4324,15 +4324,6 @@ Driver</text>
 <pinref part="R22" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$10" class="0">
-<segment>
-<pinref part="R13" gate="G$1" pin="2"/>
-<pinref part="R14" gate="G$1" pin="2"/>
-<wire x1="12.7" y1="106.68" x2="12.7" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="99.06" x2="12.7" y2="106.68" width="0.1524" layer="91"/>
-<junction x="12.7" y="106.68"/>
-</segment>
-</net>
 <net name="N$14" class="0">
 <segment>
 <pinref part="R22" gate="G$1" pin="1"/>
@@ -4370,7 +4361,7 @@ Driver</text>
 <pinref part="L3" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$75" class="0">
+<net name="ANTENNA" class="0">
 <segment>
 <pinref part="U$6" gate="G$1" pin="ANT"/>
 <pinref part="U$6" gate="G$1" pin="P$1"/>
@@ -4429,6 +4420,13 @@ Driver</text>
 <pinref part="U$6" gate="G$1" pin="P$19"/>
 <wire x1="7.62" y1="17.78" x2="35.56" y2="17.78" width="0.1524" layer="91"/>
 <junction x="7.62" y="17.78"/>
+<pinref part="R13" gate="G$1" pin="2"/>
+<pinref part="R14" gate="G$1" pin="2"/>
+<wire x1="12.7" y1="106.68" x2="12.7" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="63.5" x2="7.62" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="101.6" x2="12.7" y2="106.68" width="0.1524" layer="91"/>
+<junction x="7.62" y="63.5"/>
+<junction x="12.7" y="106.68"/>
 </segment>
 </net>
 </nets>

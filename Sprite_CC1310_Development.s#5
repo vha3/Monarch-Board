@@ -2448,96 +2448,6 @@ Simple light detection sensor. Output varies with light intensity input. Spark F
 </deviceset>
 </devicesets>
 </library>
-<library name="915_MHZ_PCB_ANTENNA">
-<packages>
-<package name="915_MHZ_PCB_ANTENNA">
-<wire x1="-8.89" y1="-2.54" x2="-8.89" y2="9.46" width="1" layer="16"/>
-<wire x1="-6.89" y1="3.46" x2="-6.89" y2="9.46" width="1" layer="16"/>
-<wire x1="-4.89" y1="3.46" x2="-4.89" y2="9.46" width="1" layer="16"/>
-<wire x1="-2.89" y1="3.46" x2="-2.89" y2="9.46" width="1" layer="16"/>
-<wire x1="-0.89" y1="3.46" x2="-0.89" y2="9.46" width="1" layer="16"/>
-<wire x1="1.11" y1="3.46" x2="1.11" y2="9.46" width="1" layer="16"/>
-<wire x1="3.11" y1="3.46" x2="3.11" y2="9.46" width="1" layer="16"/>
-<wire x1="5.11" y1="3.46" x2="5.11" y2="9.46" width="1" layer="16"/>
-<wire x1="7.11" y1="3.46" x2="7.11" y2="9.46" width="1" layer="16"/>
-<wire x1="9.11" y1="3.46" x2="9.11" y2="9.46" width="1" layer="16"/>
-<wire x1="-6.89" y1="3.46" x2="-7.89" y2="4.46" width="1" layer="1"/>
-<wire x1="-7.89" y1="4.46" x2="-7.89" y2="8.46" width="1" layer="1"/>
-<wire x1="-7.89" y1="8.46" x2="-8.89" y2="9.46" width="1" layer="1"/>
-<wire x1="-4.89" y1="3.46" x2="-5.89" y2="4.46" width="1" layer="1"/>
-<wire x1="-5.89" y1="4.46" x2="-5.89" y2="8.46" width="1" layer="1"/>
-<wire x1="-5.89" y1="8.46" x2="-6.89" y2="9.46" width="1" layer="1"/>
-<wire x1="-2.89" y1="3.46" x2="-3.89" y2="4.46" width="1" layer="1"/>
-<wire x1="-3.89" y1="4.46" x2="-3.89" y2="8.46" width="1" layer="1"/>
-<wire x1="-3.89" y1="8.46" x2="-4.89" y2="9.46" width="1" layer="1"/>
-<wire x1="-0.89" y1="3.46" x2="-1.89" y2="4.46" width="1" layer="1"/>
-<wire x1="-1.89" y1="4.46" x2="-1.89" y2="8.46" width="1" layer="1"/>
-<wire x1="-1.89" y1="8.46" x2="-2.89" y2="9.46" width="1" layer="1"/>
-<wire x1="1.11" y1="3.46" x2="0.11" y2="4.46" width="1" layer="1"/>
-<wire x1="0.11" y1="4.46" x2="0.11" y2="8.46" width="1" layer="1"/>
-<wire x1="0.11" y1="8.46" x2="-0.89" y2="9.46" width="1" layer="1"/>
-<wire x1="3.11" y1="3.46" x2="2.11" y2="4.46" width="1" layer="1"/>
-<wire x1="2.11" y1="4.46" x2="2.11" y2="8.46" width="1" layer="1"/>
-<wire x1="2.11" y1="8.46" x2="1.11" y2="9.46" width="1" layer="1"/>
-<wire x1="5.11" y1="3.46" x2="4.11" y2="4.46" width="1" layer="1"/>
-<wire x1="4.11" y1="4.46" x2="4.11" y2="8.46" width="1" layer="1"/>
-<wire x1="4.11" y1="8.46" x2="3.11" y2="9.46" width="1" layer="1"/>
-<wire x1="7.11" y1="3.46" x2="6.11" y2="4.46" width="1" layer="1"/>
-<wire x1="6.11" y1="4.46" x2="6.11" y2="8.46" width="1" layer="1"/>
-<wire x1="6.11" y1="8.46" x2="5.11" y2="9.46" width="1" layer="1"/>
-<wire x1="9.11" y1="3.46" x2="8.11" y2="4.46" width="1" layer="1"/>
-<wire x1="8.11" y1="4.46" x2="8.11" y2="8.46" width="1" layer="1"/>
-<wire x1="8.11" y1="8.46" x2="7.11" y2="9.46" width="1" layer="1"/>
-<circle x="9.11" y="9.46" radius="0.25" width="0.5" layer="16"/>
-<smd name="ANTENNA" x="-8.89" y="-3.04" dx="1" dy="1" layer="16" rot="R180"/>
-<pad name="P$1" x="-8.89" y="9.46" drill="0.3" diameter="0.38"/>
-<pad name="P$2" x="-6.89" y="9.46" drill="0.3" diameter="0.38"/>
-<pad name="P$3" x="-4.89" y="9.46" drill="0.3" diameter="0.38"/>
-<pad name="P$4" x="-2.89" y="9.46" drill="0.3" diameter="0.38"/>
-<pad name="P$5" x="-0.89" y="9.46" drill="0.3" diameter="0.38"/>
-<pad name="P$6" x="1.11" y="9.46" drill="0.3" diameter="0.38"/>
-<pad name="P$7" x="3.11" y="9.46" drill="0.3" diameter="0.38"/>
-<pad name="P$8" x="5.11" y="9.46" drill="0.3" diameter="0.38"/>
-<pad name="P$9" x="7.11" y="9.46" drill="0.3" diameter="0.38"/>
-<pad name="P$10" x="9.11" y="9.46" drill="0.3" diameter="0.38"/>
-<pad name="P$11" x="9.11" y="3.46" drill="0.3" diameter="0.38"/>
-<pad name="P$12" x="7.11" y="3.46" drill="0.3" diameter="0.38"/>
-<pad name="P$13" x="5.11" y="3.46" drill="0.3" diameter="0.38"/>
-<pad name="P$14" x="3.11" y="3.46" drill="0.3" diameter="0.38"/>
-<pad name="P$15" x="1.11" y="3.46" drill="0.3" diameter="0.38"/>
-<pad name="P$16" x="-0.89" y="3.46" drill="0.3" diameter="0.38"/>
-<pad name="P$17" x="-2.89" y="3.46" drill="0.3" diameter="0.38" rot="R90"/>
-<pad name="P$18" x="-4.89" y="3.46" drill="0.3" diameter="0.38" rot="R90"/>
-<pad name="P$19" x="-6.89" y="3.46" drill="0.3" diameter="0.38" rot="R90"/>
-</package>
-</packages>
-<symbols>
-<symbol name="915_MHZ_PCB_ANTENNA">
-<wire x1="0" y1="15.24" x2="0" y2="10.16" width="0.254" layer="94"/>
-<wire x1="0" y1="10.16" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="10.16" x2="5.08" y2="15.24" width="0.254" layer="94"/>
-<wire x1="0" y1="10.16" x2="-5.08" y2="15.24" width="0.254" layer="94"/>
-<pin name="ANTENNA" x="0" y="0" visible="pad" length="middle" rot="R90"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="915_MHZ_PCB_ANTENNA">
-<gates>
-<gate name="G$1" symbol="915_MHZ_PCB_ANTENNA" x="0" y="5.08"/>
-</gates>
-<devices>
-<device name="" package="915_MHZ_PCB_ANTENNA">
-<connects>
-<connect gate="G$1" pin="ANTENNA" pad="ANTENNA"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="JOHANSON_BALUN">
 <packages>
 <package name="JOHANSON_BALUN">
@@ -3046,7 +2956,6 @@ Source: &lt;a href="http://www.molex.com/pdm_docs/sd/734120110_sd.pdf"&gt; Data 
 <part name="GND43" library="SparkFun" deviceset="GND" device=""/>
 <part name="R19" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="3.3k"/>
 <part name="R20" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="331"/>
-<part name="U$3" library="915_MHZ_PCB_ANTENNA" deviceset="915_MHZ_PCB_ANTENNA" device=""/>
 <part name="BALUN" library="JOHANSON_BALUN" deviceset="JOHANSON_BALUN" device=""/>
 <part name="GND44" library="SparkFun" deviceset="GND" device=""/>
 <part name="C26" library="SparkFun" deviceset="CAP" device="0402-CAP" value="100 pF"/>
@@ -3281,7 +3190,6 @@ Driver</text>
 <attribute name="VALUE" x="197.358" y="201.93" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="R20" gate="G$1" x="200.66" y="238.76"/>
-<instance part="U$3" gate="G$1" x="12.7" y="99.06" smashed="yes" rot="R180"/>
 <instance part="BALUN" gate="G$1" x="60.96" y="104.14" smashed="yes"/>
 <instance part="GND44" gate="1" x="78.74" y="111.76" rot="R180"/>
 <instance part="C26" gate="G$1" x="40.64" y="106.68" smashed="yes" rot="R90">
@@ -4421,7 +4329,6 @@ Driver</text>
 <pinref part="R13" gate="G$1" pin="2"/>
 <pinref part="R14" gate="G$1" pin="2"/>
 <wire x1="12.7" y1="106.68" x2="12.7" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="ANTENNA"/>
 <wire x1="12.7" y1="99.06" x2="12.7" y2="106.68" width="0.1524" layer="91"/>
 <junction x="12.7" y="106.68"/>
 </segment>

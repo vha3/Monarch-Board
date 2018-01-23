@@ -2456,11 +2456,11 @@ Simple light detection sensor. Output varies with light intensity input. Spark F
 <smd name="6" x="0.4" y="0.5" dx="0.45" dy="0.25" layer="1"/>
 <smd name="3" x="-0.4" y="-0.5" dx="0.45" dy="0.25" layer="1"/>
 <smd name="4" x="0.4" y="-0.5" dx="0.45" dy="0.25" layer="1"/>
-<wire x1="-0.4" y1="-0.8" x2="0.4" y2="-0.8" width="0.1016" layer="22"/>
-<wire x1="-0.4" y1="0.8" x2="0.4" y2="0.8" width="0.1016" layer="22"/>
-<wire x1="-0.4" y1="0.8" x2="-0.4" y2="-0.8" width="0.1016" layer="22"/>
-<wire x1="0.4" y1="0.8" x2="0.4" y2="-0.8" width="0.1016" layer="22"/>
-<circle x="0" y="0.6" radius="0.05" width="0.127" layer="22"/>
+<wire x1="-0.4" y1="-0.8" x2="0.4" y2="-0.8" width="0.1016" layer="21"/>
+<wire x1="-0.4" y1="0.8" x2="0.4" y2="0.8" width="0.1016" layer="21"/>
+<wire x1="-0.4" y1="0.8" x2="-0.4" y2="-0.8" width="0.1016" layer="21"/>
+<wire x1="0.4" y1="0.8" x2="0.4" y2="-0.8" width="0.1016" layer="21"/>
+<circle x="0" y="0.6" radius="0.05" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>

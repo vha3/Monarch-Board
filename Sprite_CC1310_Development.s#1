@@ -200,7 +200,6 @@
 <smd name="47" x="-2.25" y="3.35" dx="0.3" dy="0.7" layer="1" roundness="100"/>
 <smd name="48" x="-2.75" y="3.35" dx="0.3" dy="0.7" layer="1" roundness="100"/>
 <text x="-2.5" y="4.14" size="1.016" layer="25">&gt;NAME</text>
-<text x="-3.11" y="-4.61" size="0.6096" layer="27">CC1310 RGZ48</text>
 </package>
 </packages>
 <symbols>
