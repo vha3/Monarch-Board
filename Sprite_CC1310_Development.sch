@@ -2743,7 +2743,7 @@ Simple light detection sensor. Output varies with light intensity input. Spark F
 <part name="C12" library="SparkFun" deviceset="CAP" device="0402-CAP" value="12 pF"/>
 <part name="GND12" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND13" library="SparkFun" deviceset="GND" device=""/>
-<part name="SER3635CT-ND" library="TSX-3225" deviceset="TSX-3225" device=""/>
+<part name="TSX3225" library="TSX-3225" deviceset="TSX-3225" device=""/>
 <part name="GND14" library="SparkFun" deviceset="GND" device=""/>
 <part name="R2" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="3.3k"/>
 <part name="R3" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="3.3k"/>
@@ -2928,7 +2928,7 @@ Driver</text>
 </instance>
 <instance part="GND12" gate="1" x="25.4" y="76.2"/>
 <instance part="GND13" gate="1" x="40.64" y="76.2"/>
-<instance part="SER3635CT-ND" gate="G$1" x="147.32" y="27.94"/>
+<instance part="TSX3225" gate="G$1" x="147.32" y="27.94"/>
 <instance part="GND14" gate="1" x="147.32" y="10.16"/>
 <instance part="R2" gate="G$1" x="60.96" y="78.74" smashed="yes" rot="R180">
 <attribute name="NAME" x="59.69" y="82.3214" size="1.778" layer="95" rot="R180"/>
@@ -3153,8 +3153,8 @@ Driver</text>
 <pinref part="GND13" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="SER3635CT-ND" gate="G$1" pin="2"/>
-<pinref part="SER3635CT-ND" gate="G$1" pin="4"/>
+<pinref part="TSX3225" gate="G$1" pin="2"/>
+<pinref part="TSX3225" gate="G$1" pin="4"/>
 <wire x1="144.78" y1="17.78" x2="147.32" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="GND14" gate="1" pin="GND"/>
 <wire x1="147.32" y1="15.24" x2="148.59" y2="17.78" width="0.1524" layer="91"/>
@@ -3693,7 +3693,7 @@ Driver</text>
 <label x="124.46" y="93.98" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="SER3635CT-ND" gate="G$1" pin="3"/>
+<pinref part="TSX3225" gate="G$1" pin="3"/>
 <wire x1="154.94" y1="27.94" x2="162.56" y2="27.94" width="0.1524" layer="91"/>
 <label x="154.94" y="27.94" size="1.778" layer="95"/>
 </segment>
@@ -3705,7 +3705,7 @@ Driver</text>
 <label x="124.46" y="96.52" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="SER3635CT-ND" gate="G$1" pin="1"/>
+<pinref part="TSX3225" gate="G$1" pin="1"/>
 <wire x1="139.7" y1="27.94" x2="132.08" y2="27.94" width="0.1524" layer="91"/>
 <label x="132.08" y="27.94" size="1.778" layer="95"/>
 </segment>

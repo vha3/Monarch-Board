@@ -1074,7 +1074,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="19.207590625" y="18.1860125" size="0.4064" layer="26" rot="MR180"/>
 </element>
 <element name="REAR_PANEL" library="ALTA_CELL" package="ALTA_CELL" value="ALTA_CELL" x="25.052265625" y="38.562209375" rot="R180"/>
-<element name="SER3635CT-ND" library="TSX-3225" package="TSX-3225" value="TSX-3225" x="26.85" y="21.33" rot="R90"/>
+<element name="TSX3225" library="TSX-3225" package="TSX-3225" value="TSX-3225" x="26.85" y="21.33" rot="R90"/>
 <element name="U$2" library="LV8417CS" package="LV8417CS" value="LV8417CS" x="32.77" y="23.11" rot="MR0"/>
 <element name="U$4" library="Panasonic_Rectifier" package="PANASONIC_RECTIFIER" value="PANASONIC_RECTIFIER" x="37.66" y="23.46" smashed="yes" rot="MR0"/>
 <element name="U$5" library="johanson_gps_chip" package="JOHANSON_GPS_CHIP" value="JOHANSON_GPS_CHIP" x="44.98" y="2.24" rot="MR0"/>
@@ -1111,8 +1111,8 @@ design rules under a new name.</description>
 <contactref element="C10" pad="2"/>
 <contactref element="C11" pad="2"/>
 <contactref element="C12" pad="2"/>
-<contactref element="SER3635CT-ND" pad="2"/>
-<contactref element="SER3635CT-ND" pad="4"/>
+<contactref element="TSX3225" pad="2"/>
+<contactref element="TSX3225" pad="4"/>
 <contactref element="LED1" pad="C"/>
 <contactref element="LED2" pad="C"/>
 <contactref element="C13" pad="2"/>
@@ -1730,13 +1730,13 @@ design rules under a new name.</description>
 </signal>
 <signal name="X24M_N">
 <contactref element="MICROCONTROLLER" pad="46"/>
-<contactref element="SER3635CT-ND" pad="3"/>
+<contactref element="TSX3225" pad="3"/>
 <wire x1="27.65" y1="22.43" x2="28.51" y2="21.57" width="0.1524" layer="1"/>
 <wire x1="28.51" y1="21.57" x2="28.51" y2="18.36" width="0.1524" layer="1"/>
 </signal>
 <signal name="X24M_P">
 <contactref element="MICROCONTROLLER" pad="47"/>
-<contactref element="SER3635CT-ND" pad="1"/>
+<contactref element="TSX3225" pad="1"/>
 <wire x1="28.01" y1="18.36" x2="28.01" y2="18.95011875" width="0.1524" layer="1"/>
 <wire x1="28.01" y1="18.95011875" x2="27.8064125" y2="19.15370625" width="0.1524" layer="1"/>
 <wire x1="27.8064125" y1="19.15370625" x2="27.12629375" y2="19.15370625" width="0.1524" layer="1"/>
