@@ -1,3 +1,3 @@
 # CC1310-Sprite-Board
-![alt text](https://raw.githubusercontent.com/vha3/CC1310-Sprite-Board/blob/master/Images/IMG_7051.JPG)
+![Alt text](CC1310-Sprite-Board/Images/IMG_7051.JPG/?raw=true "Optional Title")
 
