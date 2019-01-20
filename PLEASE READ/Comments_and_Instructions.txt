@@ -1,0 +1,5 @@
+Please note that all components in the Bill of Materials are available from DigiKey, WITH THE EXCEPTION OF THE GPS MODULE.
+
+The GPS Module is the Venus838flpx-L, which is available from SkyTraq. SkyTraq offers this component for space applications ($99, with the COCOM limits removed), and for terrestrial applications (much cheaper, without COCOM limits removed). Please note that for this board, we would like the TERRESTRIAL GPS module (i.e. the cheaper one, without COCOM limits removed).
+
+In order to procure the GPS, an email must be sent to info@skytraq.com.tw. The item that we use is the "Venus838flpx-L without the COCOM limits removed." Please confirm the price with me before purchasing.
