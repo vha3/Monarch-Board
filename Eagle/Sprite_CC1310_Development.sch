@@ -3175,15 +3175,17 @@ Simple light detection sensor. Output varies with light intensity input. Spark F
 <library name="solarmd">
 <packages>
 <package name="SOLARMD">
-<smd name="-" x="-21" y="0" dx="1.8" dy="12.3" layer="1"/>
-<smd name="+" x="21" y="-0.1" dx="1.8" dy="12.3" layer="1"/>
-<wire x1="22" y1="7" x2="22" y2="-7" width="0.127" layer="21"/>
-<wire x1="-22" y1="7" x2="-22" y2="-7" width="0.127" layer="21"/>
+<smd name="-" x="-21.9" y="0" dx="3.6" dy="12.3" layer="1"/>
+<smd name="+" x="21.9" y="-0.1" dx="3.6" dy="12.3" layer="1"/>
 <wire x1="-22" y1="7" x2="22" y2="7" width="0.127" layer="21"/>
 <wire x1="-22" y1="-7" x2="22" y2="-7" width="0.127" layer="21"/>
 <wire x1="17.5" y1="1.5" x2="17.5" y2="-1.5" width="0.127" layer="21"/>
 <wire x1="16" y1="0" x2="19" y2="0" width="0.127" layer="21"/>
 <wire x1="-19" y1="0" x2="-16" y2="0" width="0.127" layer="21"/>
+<wire x1="-22" y1="7" x2="-22" y2="6.5" width="0.127" layer="21"/>
+<wire x1="-22" y1="-7" x2="-22" y2="-6.5" width="0.127" layer="21"/>
+<wire x1="22" y1="7" x2="22" y2="6.5" width="0.127" layer="21"/>
+<wire x1="22" y1="-7" x2="22" y2="-6.5" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -4431,6 +4433,8 @@ PTH and SMD connector options available.&lt;/p&gt;
 <part name="L2" library="SparkFun" deviceset="INDUCTOR" device="0603" value="5.6nH"/>
 <part name="R17" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="DNP"/>
 <part name="R27" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="DNP"/>
+<part name="JP3" library="SparkFun" deviceset="M02" device="PTH"/>
+<part name="R28" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="0"/>
 </parts>
 <sheets>
 <sheet>
@@ -4626,7 +4630,7 @@ and Pinouts</text>
 <instance part="U$4" gate="G$1" x="218.44" y="25.4" rot="R270"/>
 <instance part="GND33" gate="1" x="233.68" y="20.32" rot="R90"/>
 <instance part="C20" gate="G$1" x="200.66" y="40.64" smashed="yes" rot="R270">
-<attribute name="NAME" x="203.581" y="39.116" size="1.778" layer="95" rot="R270"/>
+<attribute name="NAME" x="199.644" y="43.561" size="1.778" layer="95"/>
 <attribute name="VALUE" x="204.724" y="41.021" size="1.778" layer="96"/>
 </instance>
 <instance part="GND34" gate="1" x="195.58" y="40.64" rot="R270"/>
@@ -4729,6 +4733,11 @@ and Pinouts</text>
 <instance part="R27" gate="G$1" x="365.76" y="223.52" smashed="yes" rot="R90">
 <attribute name="NAME" x="364.2614" y="221.488" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="368.808" y="221.742" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="JP3" gate="G$1" x="157.48" y="134.62"/>
+<instance part="R28" gate="G$1" x="200.66" y="30.48" smashed="yes">
+<attribute name="NAME" x="197.358" y="31.7246" size="1.778" layer="95"/>
+<attribute name="VALUE" x="197.104" y="28.448" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -5112,14 +5121,6 @@ and Pinouts</text>
 <label x="271.78" y="172.72" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="VCC"/>
-<wire x1="205.74" y1="30.48" x2="195.58" y2="30.48" width="0.1524" layer="91"/>
-<label x="195.58" y="30.48" size="1.778" layer="95"/>
-<pinref part="C20" gate="G$1" pin="1"/>
-<wire x1="205.74" y1="40.64" x2="205.74" y2="30.48" width="0.1524" layer="91"/>
-<junction x="205.74" y="30.48"/>
-</segment>
-<segment>
 <pinref part="U$8" gate="G$1" pin="FB"/>
 <wire x1="198.12" y1="66.04" x2="198.12" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="73.66" x2="238.76" y2="73.66" width="0.1524" layer="91"/>
@@ -5178,6 +5179,11 @@ and Pinouts</text>
 <pinref part="JP1" gate="G$1" pin="1"/>
 <wire x1="142.24" y1="139.7" x2="149.86" y2="139.7" width="0.1524" layer="91"/>
 <label x="144.78" y="139.7" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="C20" gate="G$1" pin="1"/>
+<wire x1="205.74" y1="40.64" x2="215.9" y2="40.64" width="0.1524" layer="91"/>
+<label x="213.36" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DCDC_SW" class="0">
@@ -5614,6 +5620,11 @@ and Pinouts</text>
 <label x="182.88" y="73.66" size="1.778" layer="95" rot="R270"/>
 <pinref part="SCHTOKKY" gate="G$1" pin="A"/>
 </segment>
+<segment>
+<pinref part="JP3" gate="G$1" pin="1"/>
+<wire x1="165.1" y1="134.62" x2="175.26" y2="134.62" width="0.1524" layer="91"/>
+<label x="167.64" y="134.62" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$19" class="0">
 <segment>
@@ -5785,6 +5796,17 @@ and Pinouts</text>
 <pinref part="MICROCONTROLLER" gate="G$1" pin="36"/>
 <wire x1="124.46" y1="68.58" x2="132.08" y2="68.58" width="0.1524" layer="91"/>
 <label x="124.46" y="68.58" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP3" gate="G$1" pin="2"/>
+<wire x1="165.1" y1="137.16" x2="175.26" y2="137.16" width="0.1524" layer="91"/>
+<label x="167.64" y="137.16" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R28" gate="G$1" pin="1"/>
+<wire x1="195.58" y1="30.48" x2="190.5" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="30.48" x2="190.5" y2="45.72" width="0.1524" layer="91"/>
+<label x="190.5" y="35.56" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="VSENSE" class="0">
@@ -6092,6 +6114,12 @@ and Pinouts</text>
 <wire x1="35.56" y1="152.4" x2="27.94" y2="152.4" width="0.1524" layer="91"/>
 <junction x="35.56" y="152.4"/>
 <label x="27.94" y="152.4" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$51" class="0">
+<segment>
+<pinref part="U$4" gate="G$1" pin="VCC"/>
+<pinref part="R28" gate="G$1" pin="2"/>
 </segment>
 </net>
 </nets>

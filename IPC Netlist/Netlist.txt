@@ -1,6 +1,6 @@
 Netlist
 
-Exported from Sprite_CC1310_Development.sch at 1/21/19 2:16 PM
+Exported from Sprite_CC1310_Development.sch at 5/3/19 11:37 AM
 
 EAGLE Version 8.5.2 Copyright (c) 1988-2018 Autodesk, Inc.
 
@@ -271,6 +271,9 @@ N$49        R22             2        2          1
 N$50        R25             2        2          1
             U$3             SIG      SIG        1
 
+N$51        R28             2        2          1
+            U$4             VCC      VCC        1
+
 NAV         GPS             7        GPIO0/LED  1
             MICROCONTROLLER 6        6          1
             R10             1        1          1
@@ -309,6 +312,7 @@ SDA         IMU             4        SDA/SDI/SDO 1
             SI7021          1        SDA        1
 
 SOLAR_CELLS FRONT_PANEL     +        +          1
+            JP3             1        1          1
             REAR_PANEL      +        +          1
             SCHTOKKY        +        A          1
 
@@ -316,8 +320,10 @@ SPICLK      JP2             8        8          1
             MICROCONTROLLER 16       16         1
 
 SUPERCAP    C22             1        1          1
+            JP3             2        2          1
             L4              2        2          1
             MICROCONTROLLER 36       36         1
+            R28             1        1          1
             SCHTOKKY        -        C          1
             SUPERCAPACITOR  +        +          1
             U$8             5        SHDN       1
@@ -372,7 +378,6 @@ VDDS        C13             1        1          1
             R3              2        2          1
             R6              1        1          1
             SI7021          5        VDD        1
-            U$4             VCC      VCC        1
             U$8             1        FB         1
             U$8             8        OUT        1
 
