@@ -1,0 +1,301 @@
+Netlist
+
+Exported from Sprite_CC1310_Development.sch at 9/8/19 4:01 PM
+
+EAGLE Version 8.5.2 Copyright (c) 1988-2018 Autodesk, Inc.
+
+Net         Part            Pad      Pin        Sheet
+
+ACCEL_INT   IMU             12       INT2_A/G   1
+            MICROCONTROLLER 18       18         1
+
+ADC0        LS1             E        E1         1
+            MICROCONTROLLER 36       36         1
+            R7              1        1          1
+
+ADC1        LS2             E        E1         1
+            MICROCONTROLLER 37       37         1
+            R8              1        1          1
+
+ANTENNA     C19             2        2          1
+            C26             1        1          1
+            U$6             1        P$1        1
+            U$6             10       P$10       1
+            U$6             11       P$11       1
+            U$6             12       P$12       1
+            U$6             13       P$13       1
+            U$6             14       P$14       1
+            U$6             15       P$15       1
+            U$6             16       P$16       1
+            U$6             17       P$17       1
+            U$6             18       P$18       1
+            U$6             19       P$19       1
+            U$6             2        P$2        1
+            U$6             3        P$3        1
+            U$6             4        P$4        1
+            U$6             5        P$5        1
+            U$6             6        P$6        1
+            U$6             7        P$7        1
+            U$6             8        P$8        1
+            U$6             9        P$9        1
+            U$6             ANTENNA  ANT        1
+
+COIL        R20             2        2          1
+            U$2             OUT2     OUT2       1
+            U$4             C1       C1         1
+            U$4             C2       C2         1
+
+DCDC_SW     L1              1        1          1
+            MICROCONTROLLER 33       33         1
+
+GLED        MICROCONTROLLER 12       12         1
+            R5              2        2          1
+
+GND         BALUN           5        GND        1
+            BALUN           6        GND        1
+            C1              2        2          1
+            C10             2        2          1
+            C11             2        2          1
+            C12             2        2          1
+            C13             2        2          1
+            C14             2        2          1
+            C15             2        2          1
+            C16             2        2          1
+            C17             2        2          1
+            C18             2        2          1
+            C19             1        1          1
+            C2              2        2          1
+            C20             2        2          1
+            C22             2        2          1
+            C23             2        2          1
+            C3              2        2          1
+            C4              2        2          1
+            C5              2        2          1
+            C6              2        2          1
+            C7              2        2          1
+            C8              2        2          1
+            C9              2        2          1
+            FRONT_PANEL     -        -          1
+            GPS             10       GND        1
+            GPS             11       GND        1
+            GPS             15       GND        1
+            GPS             19       GND        1
+            GPS             21       GNDRF      1
+            GPS             22       GNDRF      1
+            GPS             24       GNDRF      1
+            GPS             25       GNDRF      1
+            GPS             27       GNDRF      1
+            GPS             28       GNDRF      1
+            GPS             29       GNDRF      1
+            GPS             31       GNDRF      1
+            GPS             33       GNDRF      1
+            GPS             49       GND        1
+            GPS             60       GND        1
+            GPS             61       GNDRF      1
+            GPS             62       GNDRF      1
+            GPS             64       GND        1
+            GPS             65       GNDRF      1
+            GPS             69       GNDRF      1
+            IMU             14       RES        1
+            IMU             15       RES        1
+            IMU             16       RES        1
+            IMU             17       RES        1
+            IMU             18       RES        1
+            IMU             19       GND        1
+            IMU             20       GND        1
+            J1              3        GND        1
+            J1              5        GND        1
+            J1              9        GNDDTCT    1
+            L3              1        1          1
+            LED1            C        C          1
+            LED2            C        C          1
+            MICROCONTROLLER 32       32         1
+            MICROCONTROLLER 49       49         1
+            R7              2        2          1
+            R8              2        2          1
+            REAR_PANEL      -        -          1
+            TSX3225         2        2          1
+            TSX3225         4        4          1
+            U$2             PGND     PGND       1
+            U$2             SGND     SGND       1
+            U$4             GND      GND        1
+            U$8             6        GND        1
+
+GYRO_INT    IMU             11       INT1_A/G   1
+            MICROCONTROLLER 19       19         1
+
+JTAG_TCKC   J1              4        SWDCLK/TCK 1
+            MICROCONTROLLER 25       25         1
+
+JTAG_TMSC   J1              2        SWDIO/TMS  1
+            MICROCONTROLLER 24       24         1
+
+MAG_INT     IMU             9        DRDY_M     1
+            MICROCONTROLLER 20       20         1
+
+N$1         C10             1        1          1
+            MICROCONTROLLER 23       23         1
+
+N$2         32.768          P2       P2         1
+            C11             1        1          1
+            MICROCONTROLLER 4        4          1
+
+N$3         32.768          P1       P1         1
+            C12             1        1          1
+            MICROCONTROLLER 5        5          1
+
+N$4         LED1            A        A          1
+            R4              1        1          1
+
+N$5         LED2            A        A          1
+            R5              1        1          1
+
+N$6         IMU             5        SDO_A/G    1
+            IMU             6        SDO_M      1
+            IMU             7        CS_A/G     1
+            IMU             8        CS_M       1
+            R6              2        2          1
+
+N$7         GPS             42       RXD0       1
+            R9              1        1          1
+
+N$8         C16             1        1          1
+            IMU             21       CAP        1
+
+N$9         C17             1        1          1
+            IMU             24       C1         1
+
+N$11        LED3            C        C          1
+            R10             2        2          1
+
+N$12        GPS             9        BOOT_SEL   1
+            R11             1        1          1
+
+N$13        C18             1        1          1
+            GPS             1        RSTN       1
+            R12             2        2          1
+
+N$15        GPS             32       RFIN       1
+            L3              2        2          1
+            U$5             SIG      SIG        1
+
+N$19        R19             1        1          1
+            U$2             ENA      ENA        1
+
+N$20        R20             1        1          1
+            U$2             OUT1     OUT1       1
+
+N$21        BALUN           1        UNBAL      1
+            C26             2        2          1
+
+N$22        BALUN           4        RF_P       1
+            MICROCONTROLLER 1        1          1
+
+N$23        BALUN           3        RF_N       1
+            MICROCONTROLLER 2        2          1
+
+N$24        BALUN           2        RX/TX      1
+            MICROCONTROLLER 3        3          1
+
+N$48        L4              1        1          1
+            U$8             7        LX         1
+
+NAV         GPS             7        GPIO0/LED  1
+            MICROCONTROLLER 6        6          1
+            R10             1        1          1
+
+PWM1        MICROCONTROLLER 40       40         1
+            U$2             IN1      IN1        1
+
+PWM2        MICROCONTROLLER 41       41         1
+            U$2             IN2      IN2        1
+
+RESET       C1              1        1          1
+            J1              10       !RESET     1
+            MICROCONTROLLER 35       35         1
+            R1              1        1          1
+
+RLED        MICROCONTROLLER 11       11         1
+            R4              2        2          1
+
+RXD         GPS             44       TXD0       1
+            JP1             1        1          1
+            MICROCONTROLLER 7        7          1
+
+SCL         IMU             2        SCL/SPC    1
+            MICROCONTROLLER 9        9          1
+            R2              1        1          1
+
+SDA         IMU             4        SDA/SDI/SDO 1
+            MICROCONTROLLER 10       10         1
+            R3              1        1          1
+
+SOLAR_CELLS C22             1        1          1
+            FRONT_PANEL     +        +          1
+            L4              2        2          1
+            REAR_PANEL      +        +          1
+            U$8             5        SHDN       1
+
+SWO         MICROCONTROLLER 28       28         1
+
+TDI         J1              8        NC/TDI     1
+            MICROCONTROLLER 27       27         1
+
+TDO         J1              6        SWO/TDO    1
+            MICROCONTROLLER 26       26         1
+
+TXD         JP1             2        2          1
+            MICROCONTROLLER 8        8          1
+            R9              2        2          1
+
+VDDR        C7              1        1          1
+            C8              1        1          1
+            C9              1        1          1
+            L1              2        2          1
+            MICROCONTROLLER 45       45         1
+            MICROCONTROLLER 48       48         1
+
+VDDS        C13             1        1          1
+            C14             1        1          1
+            C15             1        1          1
+            C2              1        1          1
+            C20             1        1          1
+            C23             1        1          1
+            C3              1        1          1
+            C4              1        1          1
+            C5              1        1          1
+            C6              1        1          1
+            GPS             18       VBAT       1
+            GPS             2        VCC        1
+            GPS             58       VCC        1
+            IMU             1        VDDIO      1
+            IMU             22       VDD        1
+            IMU             23       VDD        1
+            IMU             3        VDDIO      1
+            J1              1        VCC        1
+            LED3            A        A          1
+            LS1             C        C1         1
+            LS2             C        C1         1
+            MICROCONTROLLER 13       13         1
+            MICROCONTROLLER 22       22         1
+            MICROCONTROLLER 34       34         1
+            MICROCONTROLLER 44       44         1
+            R1              2        2          1
+            R11             2        2          1
+            R12             1        1          1
+            R19             2        2          1
+            R2              2        2          1
+            R3              2        2          1
+            R6              1        1          1
+            U$2             VCC      VCC        1
+            U$2             VM       VM         1
+            U$4             VCC      VCC        1
+            U$8             1        FB         1
+            U$8             8        OUT        1
+
+X24M_N      MICROCONTROLLER 46       46         1
+            TSX3225         3        3          1
+
+X24M_P      MICROCONTROLLER 47       47         1
+            TSX3225         1        1          1
+
